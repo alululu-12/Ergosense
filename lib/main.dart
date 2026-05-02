@@ -1,6 +1,6 @@
-import 'package:ergosense/screens/home.dart';
+//import 'package:ergosense/screens/home.dart';
 import 'package:flutter/material.dart';
-
+import 'package:ergosense/screens/login.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: const Color.fromARGB(255, 247, 214, 237),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 236, 195, 224),
       ),
-      home: const HomePage(),
-      
+      //home: const HomePage(),
+      home: const LogInPage(),
     );
   }
 }
